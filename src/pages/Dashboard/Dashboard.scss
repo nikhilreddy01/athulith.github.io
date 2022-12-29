@@ -1,0 +1,21 @@
+
+.dashboard-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .cards{
+        cursor: pointer;
+        width: 30%;
+        border: 1px solid #e6e6e6;
+        margin: 11px;
+        padding: 10px 0px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+}
+@media only screen and (max-width: 800px) and (min-width: 300px){
+    .cards{
+    width : 90% !important;
+    }
+
+}

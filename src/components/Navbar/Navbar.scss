@@ -1,0 +1,51 @@
+.nav-bar {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f1f3f4;
+
+    .logo {
+        margin: 0px 10px;
+        font-family: open-sans;
+        text-align: left;
+
+        div {
+            color: red;
+            font-size: 30px;
+            font-weight: 600;
+        }
+
+        span {
+            font-size: 13px;
+        }
+
+    }
+
+    .about-us {
+        display: flex;
+        align-items: center;
+
+        div {
+            margin-right: 14px;
+            font-weight: 600;
+            color: #5d5dd7;
+        }
+
+        .call {
+            a {
+                color: #2c66c4;
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 800px) and (min-width: 300px){
+    .about-us{
+        div{
+            margin-right: 6px !important;
+        }
+    }
+
+}
