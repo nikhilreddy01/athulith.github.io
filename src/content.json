@@ -29,11 +29,17 @@
         },
         {
             "name":"Home Office",
-            "image":"office.png"
+            "image":"office.png",
+            "subImagesBaseUrl":"officehome",
+            "count":11
         },
         {
             "name":"Space Saving Furniture",
-            "image":"furniture.png"
+            "image":"furniture.png",
+            "subImagesBaseUrl":"spacefurniture",
+            "count":12
+
+
         }
     ]
 }
